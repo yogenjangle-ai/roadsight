@@ -1,0 +1,11 @@
+# RoadSight YOLOv8/YOLO11 Dataset Configuration
+# 70% Train, 20% Validation, 10% Test
+
+path: /content/dataset # dataset root dir
+train: images/train    # train images (relative to 'path')
+val: images/val        # val images (relative to 'path')
+test: images/test      # test images (optional, relative to 'path')
+
+# Classes
+names:
+  0: pothole
